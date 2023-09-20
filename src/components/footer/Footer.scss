@@ -1,0 +1,121 @@
+.footer{
+    background: #304146;
+    // height: 30%;
+    // width: 100%;
+}
+
+.footer h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.social{
+    padding-top: 20px;
+    width: 20%;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+.social a{
+    text-decoration: none;
+    font-size: 20px;
+    /* margin-right: 15px; */
+    margin: 10px;
+    color: #ababaa;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social a:hover{
+    color: red;
+    transform: translateY(-5px);
+}
+
+.row{
+    display: flex;
+}
+.emergency-contact-left{
+    flex-basis: 70%;
+    padding-left: 60px;
+}
+.emergency-contact-left h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.emergency-contact-left p{
+    color: #ababaa;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+
+.office-right h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.office-right p{
+    color: #ababaa;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 60px;
+    margin-top: 10px;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 500px){
+    // .footer{
+    //     height: 350px;
+    //     width: 100%;
+    // }
+    
+    .social{
+        padding-top: 20px;
+        width: 50%;
+        // text-align: left;
+        
+    }
+    .icons{
+       margin-top: 15px;
+      
+    }
+    .emergency-contact-left{
+        flex-basis: 50%;
+        padding-left: 15px;
+    }
+    .emergency-contact-left h2{
+        padding-top: 20px;
+        padding-left: 10px;
+        font-size: small;
+    }
+
+    .emergency-contact-left p{
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+    
+    
+    .office-right h2{
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: small;
+    }
+
+    .office-right p{
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+
+    .copyright{
+   
+        padding-top: 30px;
+     
+    }
+}
